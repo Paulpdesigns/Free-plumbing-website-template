@@ -1,4 +1,4 @@
-/* Anchor Plumbing Co. site scripts */
+/* Plumbing website demo site scripts */
 document.addEventListener("DOMContentLoaded", function () {
 
   /* Sticky nav shadow on scroll */
@@ -193,7 +193,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (copyQuoteBtn) {
     copyQuoteBtn.addEventListener("click", function () {
       var summary =
-        "Anchor Plumbing Co. estimate\n" +
+        "Plumbing website demo estimate\n" +
         "Service: " + currentQuote.service + "\n" +
         "Property: " + (currentQuote.property === "commercial" ? "Commercial" : "Residential") + "\n" +
         "Timing: " + (currentQuote.urgency === "emergency" ? "Same day emergency" : "Standard scheduling") + "\n" +
