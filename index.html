@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Plumbing website demo | Licensed plumbers, upfront pricing</title>
+<meta name="description" content="Plumbing website demo handles leak repair, drain clearing, water heater installs, and full repiping. Get an instant price range with our online quote checker." />
+<link rel="preconnect" href="https://images.unsplash.com" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav class="site-nav" id="siteNav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3v6M12 9c-4 2-6 5-6 8a6 6 0 0 0 12 0c0-3-2-6-6-8Z" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+      Plumbing website demo
+    </a>
+    <div class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#quote">Quote checker</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="#process">How it works</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-cta">
+      <span class="nav-phone">(555) 014 7788</span>
+      <a href="#quote" class="btn btn--primary">Get a quote</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-panel" id="mobilePanel">
+  <a href="#services">Services</a>
+  <a href="#quote">Quote checker</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="#process">How it works</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<header class="hero">
+  <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1503789146722-cf137a3c0fea?w=1800&q=70&auto=format&fit=crop');" id="heroBg"></div>
+  <div class="container hero-content">
+    <span class="hero-eyebrow">Licensed and insured, serving the whole metro area</span>
+    <h1 class="reveal">Plumbing done right, priced honestly, <span>guaranteed in writing.</span></h1>
+    <p class="lede reveal">Leak repair, drain clearing, water heater installs, and full repiping from technicians who show up on time and explain the price before they touch a wrench.</p>
+    <div class="hero-actions reveal">
+      <a href="#quote" class="btn btn--primary">Check your price range</a>
+      <a href="portfolio.html" class="btn btn--ghost">View our work</a>
+    </div>
+    <div class="hero-stats reveal">
+      <div>
+        <span class="stat-num" data-count="4.9" data-decimal="1">0</span>
+        <span class="stat-label">Average rating</span>
+      </div>
+      <div>
+        <span class="stat-num" data-count="3200" data-suffix="+">0</span>
+        <span class="stat-label">Jobs completed</span>
+      </div>
+      <div>
+        <span class="stat-num" data-count="12" data-suffix=" yrs">0</span>
+        <span class="stat-label">In service</span>
+      </div>
+      <div>
+        <span class="stat-num" data-count="45" data-suffix=" min">0</span>
+        <span class="stat-label">Emergency response</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section" id="services">
+  <div class="container">
+    <span class="eyebrow reveal">What we handle</span>
+    <div class="section-head reveal">
+      <div>
+        <svg class="flow-accent" viewBox="0 0 84 14"><path d="M2 8c8-10 14 2 22-6s14 2 22-6s14 2 22-6" /></svg>
+        <h2>Six services, one standard of work.</h2>
+      </div>
+      <p class="lede">Every technician carries the same stocked van, the same pricing sheet, and the same two year guarantee, no matter which job you call about.</p>
+    </div>
+
+    <div class="service-grid reveal-stagger">
+      <div class="service-card reveal" style="--stagger-index: 0">
+        <div class="service-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2v6M9 8l3-3 3 3M6 12a6 6 0 0 0 12 0c0-2-1-4-2-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 12c-1 3 0 6 3 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Leak detection and repair</h3>
+        <p>Acoustic and moisture testing to find the source before we open a wall, plus a same visit repair whenever the access allows it.</p>
+      </div>
+
+      <div class="service-card reveal" style="--stagger-index: 1">
+        <div class="service-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h10M4 18h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="19" cy="12" r="2" stroke="currentColor" stroke-width="1.8"/></svg>
+        </div>
+        <h3>Drain and sewer cleaning</h3>
+        <p>Camera inspection, hydro jetting, and snaking for kitchen lines, main sewer stacks, and everything that has slowed to a crawl.</p>
+      </div>
+
+      <div class="service-card reveal" style="--stagger-index: 2">
+        <div class="service-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="6" y="3" width="12" height="18" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M9 8h6M9 12h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Water heater installs and repair</h3>
+        <p>Tank and tankless units, gas or electric, sized to your household and installed to current code with a permit pulled if one is needed.</p>
+      </div>
+
+      <div class="service-card reveal" style="--stagger-index: 3">
+        <div class="service-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M3 12h6l3 6 3-12 3 6h3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Pipe installation and repiping</h3>
+        <p>Full or partial repiping for older homes moving off galvanized or polybutylene lines, sectioned so you keep water most of the day.</p>
+      </div>
+
+      <div class="service-card reveal" style="--stagger-index: 4">
+        <div class="service-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 20l4-4M4 20v-4h4M20 4l-4 4M20 4h-4v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><rect x="9" y="9" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.8"/></svg>
+        </div>
+        <h3>Bathroom and kitchen fitting</h3>
+        <p>Sinks, tubs, showers, and fixtures set and sealed as part of a remodel, coordinated with your contractor or handled start to finish.</p>
+      </div>
+
+      <div class="service-card reveal" style="--stagger-index: 5">
+        <div class="service-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Emergency plumbing</h3>
+        <p>Burst pipes and active leaks answered day or night, with a technician dispatched the moment the call is confirmed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container split">
+    <div class="reveal">
+      <span class="eyebrow">Why homeowners stay with us</span>
+      <svg class="flow-accent" viewBox="0 0 84 14"><path d="M2 8c8-10 14 2 22-6s14 2 22-6s14 2 22-6" /></svg>
+      <h2>Clear pricing, careful work, nothing left half done.</h2>
+      <p class="lede">Most plumbing complaints come down to surprise costs or a job that gets left open. We built our whole process to close both gaps before you ever sign anything.</p>
+      <ul class="check-list">
+        <li>
+          <span class="check-mark" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5 9-11" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          Licensed, bonded, and insured technicians on every job
+        </li>
+        <li>
+          <span class="check-mark" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5 9-11" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          Upfront pricing confirmed before any work begins
+        </li>
+        <li>
+          <span class="check-mark" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5 9-11" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          Two year workmanship guarantee logged for every visit
+        </li>
+        <li>
+          <span class="check-mark" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5 9-11" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          Floors protected and job site cleaned before we leave
+        </li>
+      </ul>
+    </div>
+    <div class="split-media reveal">
+      <img src="https://images.unsplash.com/photo-1722411487131-23bb3ac91df3?w=900&q=70&auto=format&fit=crop" alt="Copper plumbing pipe installed along a wall" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<section class="section section--light" id="portfolio-teaser">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <span class="eyebrow">Selected work</span>
+        <svg class="flow-accent" viewBox="0 0 84 14"><path d="M2 8c8-10 14 2 22-6s14 2 22-6s14 2 22-6" /></svg>
+        <h2>Recent jobs, from repair to full remodel.</h2>
+      </div>
+      <a href="portfolio.html" class="btn btn--ghost">See the full portfolio</a>
+    </div>
+
+    <div class="portfolio-grid reveal-stagger">
+      <a href="portfolio.html" class="portfolio-card reveal" style="--stagger-index: 0">
+        <img src="https://images.unsplash.com/photo-1682888818704-6dc91e9d7532?w=900&q=70&auto=format&fit=crop" alt="Marble shower and vanity after a full bathroom repipe" loading="lazy" />
+        <span class="portfolio-card-tag">Repipe</span>
+        <div class="portfolio-card-info"><h4>Marble shower repipe</h4></div>
+      </a>
+      <a href="portfolio.html" class="portfolio-card reveal" style="--stagger-index: 1">
+        <img src="https://images.unsplash.com/photo-1724771746691-806010d3c6c7?w=900&q=70&auto=format&fit=crop" alt="Guest bathroom with new tub and sink fittings" loading="lazy" />
+        <span class="portfolio-card-tag">Fixture install</span>
+        <div class="portfolio-card-info"><h4>Guest bathroom overhaul</h4></div>
+      </a>
+      <a href="portfolio.html" class="portfolio-card reveal" style="--stagger-index: 2">
+        <img src="https://images.unsplash.com/photo-1602028915047-37269d1a73f7?w=900&q=70&auto=format&fit=crop" alt="Stainless steel kitchen sink with new faucet" loading="lazy" />
+        <span class="portfolio-card-tag">Kitchen</span>
+        <div class="portfolio-card-info"><h4>Kitchen sink and disposal swap</h4></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <span class="eyebrow reveal">Our technicians</span>
+    <div class="section-head reveal">
+      <div>
+        <svg class="flow-accent" viewBox="0 0 84 14"><path d="M2 8c8-10 14 2 22-6s14 2 22-6s14 2 22-6" /></svg>
+        <h2>Three technicians, three specialties.</h2>
+      </div>
+      <p class="lede">You get matched to whoever is closest and best suited to the job, not just whoever answers first.</p>
+    </div>
+
+    <div class="team-grid reveal-stagger">
+      <div class="team-card reveal" style="--stagger-index: 0">
+        <div class="team-avatar">RM</div>
+        <div class="role">Master plumber</div>
+        <h3>Rosa Martinez</h3>
+        <p>Leak detection, repiping, and anything behind a finished wall.</p>
+        <div class="status">Booked through next week</div>
+      </div>
+      <div class="team-card reveal" style="--stagger-index: 1">
+        <div class="team-avatar">DK</div>
+        <div class="role">Senior technician</div>
+        <h3>Dan Kowalski</h3>
+        <p>Water heaters, gas lines, and full bathroom fixture installs.</p>
+        <div class="status">Same day slots open</div>
+      </div>
+      <div class="team-card reveal" style="--stagger-index: 2">
+        <div class="team-avatar">TA</div>
+        <div class="role">Journeyman plumber</div>
+        <h3>Theo Adeyemi</h3>
+        <p>Drain clearing, sewer camera work, and kitchen plumbing.</p>
+        <div class="status">Consults within two hours</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section quote-section" id="quote">
+  <div class="container">
+    <span class="eyebrow reveal">Custom quote checker</span>
+    <svg class="flow-accent reveal" viewBox="0 0 84 14"><path d="M2 8c8-10 14 2 22-6s14 2 22-6s14 2 22-6" /></svg>
+    <h2 class="reveal">See your price range before you call.</h2>
+    <p class="lede reveal" style="margin-bottom: 40px;">Answer four short questions and we will estimate a range based on the same pricing sheet our technicians carry. It is not a final invoice, but it will not surprise you either.</p>
+
+    <div class="quote-layout">
+      <div class="quote-tool reveal">
+        <div class="field-group">
+          <label for="qService">Service needed</label>
+          <select id="qService">
+            <option value="leak">Leak detection and repair</option>
+            <option value="drain">Drain and sewer cleaning</option>
+            <option value="heater">Water heater install or repair</option>
+            <option value="pipe">Pipe installation or repiping</option>
+            <option value="fitting">Bathroom or kitchen fitting</option>
+          </select>
+        </div>
+
+        <div class="field-group">
+          <label for="qSize">Job size</label>
+          <select id="qSize">
+            <option value="small">Small, a single fixture or fault</option>
+            <option value="medium">Medium, one room or a few fixtures</option>
+            <option value="large">Large, whole property or a major install</option>
+          </select>
+        </div>
+
+        <div class="field-group">
+          <label>Property type</label>
+          <div class="radio-row">
+            <label class="radio-pill">
+              <input type="radio" name="qProperty" value="residential" checked />
+              <span>Residential</span>
+            </label>
+            <label class="radio-pill">
+              <input type="radio" name="qProperty" value="commercial" />
+              <span>Commercial</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="field-group">
+          <label>How soon</label>
+          <div class="radio-row">
+            <label class="radio-pill">
+              <input type="radio" name="qUrgency" value="standard" checked />
+              <span>Standard scheduling</span>
+            </label>
+            <label class="radio-pill">
+              <input type="radio" name="qUrgency" value="emergency" />
+              <span>Same day emergency</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="quote-result" id="quoteResult">
+          <div class="quote-result-label">Estimated range</div>
+          <div class="quote-result-range" id="quoteRange">$0 to $0</div>
+          <p class="quote-result-note" id="quoteNote">One visit, suggested deposit noted below.</p>
+          <button class="btn btn--primary btn--block" id="copyQuoteBtn" type="button">Copy quote summary</button>
+        </div>
+      </div>
+
+      <div class="quote-side reveal">
+        <h3>How the range is built</h3>
+        <p>Every estimate starts from the same rate sheet, then adjusts for scope and timing the same way it would over the phone.</p>
+        <ul class="quote-info-list">
+          <li>
+            <span class="num">1</span>
+            <span>A base rate for the service you picked, drawn from the last twelve months of completed jobs.</span>
+          </li>
+          <li>
+            <span class="num">2</span>
+            <span>A scope multiplier for job size, since a single fixture and a whole property are not priced the same way.</span>
+          </li>
+          <li>
+            <span class="num">3</span>
+            <span>A commercial adjustment where it applies, covering the extra coordination that business sites usually need.</span>
+          </li>
+          <li>
+            <span class="num">4</span>
+            <span>A same day surcharge only if you ask for emergency timing instead of standard scheduling.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="process">
+  <div class="container">
+    <span class="eyebrow reveal">How a job runs</span>
+    <svg class="flow-accent reveal" viewBox="0 0 84 14"><path d="M2 8c8-10 14 2 22-6s14 2 22-6s14 2 22-6" /></svg>
+    <h2 class="reveal">Four steps from first call to signed guarantee.</h2>
+
+    <div class="process-grid reveal-stagger">
+      <div class="process-step reveal" style="--stagger-index: 0">
+        <span class="step-num">01 Tell us the job</span>
+        <p>Use the quote checker or call in, and we confirm the scope before anything is scheduled.</p>
+      </div>
+      <div class="process-step reveal" style="--stagger-index: 1">
+        <span class="step-num">02 Get a written price</span>
+        <p>You see the range in writing, so there is nothing to negotiate once the technician is on site.</p>
+      </div>
+      <div class="process-step reveal" style="--stagger-index: 2">
+        <span class="step-num">03 We do the work</span>
+        <p>Technician arrives in uniform, protects your floors, and finishes to the timeline agreed upfront.</p>
+      </div>
+      <div class="process-step reveal" style="--stagger-index: 3">
+        <span class="step-num">04 Warranty on file</span>
+        <p>Every job is logged with its guarantee, so you always have proof of what is covered and for how long.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section testimonial">
+  <div class="container">
+    <div class="testimonial-mark reveal" aria-hidden="true">&#8220;</div>
+    <blockquote class="reveal">They quoted me a range over the phone, and the final bill landed inside it. That never happens with plumbers.</blockquote>
+    <cite class="reveal">Denise R., homeowner, full bathroom repipe</cite>
+  </div>
+</section>
+
+<section class="section cta-section" id="contact">
+  <div class="container cta-layout">
+    <div class="reveal">
+      <span class="eyebrow">Ready when you are</span>
+      <svg class="flow-accent" viewBox="0 0 84 14"><path d="M2 8c8-10 14 2 22-6s14 2 22-6s14 2 22-6" /></svg>
+      <h2>Tell us what is going on, and we will call back with a plan.</h2>
+      <p class="lede">Fill in the details of the job and the best time to reach you. For an active leak or a burst pipe, call the number above instead of waiting on a form.</p>
+      <p class="form-note">Response within one business hour for standard requests, and within thirty minutes for anything flagged as an emergency.</p>
+    </div>
+
+    <form class="contact-form reveal" id="contactForm">
+      <div class="form-row">
+        <input type="text" placeholder="Full name" required aria-label="Full name" />
+        <input type="tel" placeholder="Phone number" required aria-label="Phone number" />
+      </div>
+      <input type="email" placeholder="Email address" required aria-label="Email address" />
+      <select aria-label="Service needed">
+        <option value="">Select a service</option>
+        <option>Leak detection and repair</option>
+        <option>Drain and sewer cleaning</option>
+        <option>Water heater install or repair</option>
+        <option>Pipe installation or repiping</option>
+        <option>Bathroom or kitchen fitting</option>
+        <option>Emergency plumbing</option>
+      </select>
+      <textarea placeholder="Describe the job" aria-label="Describe the job"></textarea>
+      <button type="submit" class="btn btn--primary btn--block">Send my request</button>
+      <p class="form-note" id="formStatus" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <span>Plumbing website demo, licensed and insured</span>
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <span>&copy; 2026 Plumbing website demo</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
