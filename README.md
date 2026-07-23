@@ -1,4 +1,4 @@
-# Anchor Plumbing Co. website
+# Plumbing website demo
 
 A two page plumbing business site built with plain HTML, CSS, and JavaScript. No build step, no dependencies. Ready to deploy straight to GitHub Pages.
 
