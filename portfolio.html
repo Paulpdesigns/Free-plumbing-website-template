@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio | Anchor Plumbing Co.</title>
+<meta name="description" content="Recent plumbing projects from Anchor Plumbing Co., covering repiping, bathroom fittings, kitchen installs, and emergency repairs." />
+<link rel="preconnect" href="https://images.unsplash.com" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav class="site-nav" id="siteNav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3v6M12 9c-4 2-6 5-6 8a6 6 0 0 0 12 0c0-3-2-6-6-8Z" stroke="#081422" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+      Anchor Plumbing Co.
+    </a>
+    <div class="nav-links">
+      <a href="index.html#services">Services</a>
+      <a href="index.html#quote">Quote checker</a>
+      <a href="portfolio.html" class="is-active">Portfolio</a>
+      <a href="index.html#process">How it works</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+    <div class="nav-cta">
+      <span class="nav-phone">(555) 014 7788</span>
+      <a href="index.html#quote" class="btn btn--primary">Get a quote</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-panel" id="mobilePanel">
+  <a href="index.html#services">Services</a>
+  <a href="index.html#quote">Quote checker</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="index.html#process">How it works</a>
+  <a href="index.html#contact">Contact</a>
+</div>
+
+<header class="page-header">
+  <div class="container">
+    <span class="eyebrow reveal">Selected work</span>
+    <svg class="flow-accent reveal" viewBox="0 0 84 14"><path d="M2 8c8-10 14 2 22-6s14 2 22-6s14 2 22-6" /></svg>
+    <h1 class="reveal" style="font-size: clamp(2rem, 4vw, 3rem);">Jobs we have finished, start to close out.</h1>
+    <p class="lede reveal">A mix of repairs, fittings, and full repipes. Every project listed here was completed within its quoted range.</p>
+
+    <div class="filter-bar reveal" id="filterBar">
+      <button class="filter-btn is-active" data-filter="all">All work</button>
+      <button class="filter-btn" data-filter="repipe">Repipe</button>
+      <button class="filter-btn" data-filter="bathroom">Bathroom</button>
+      <button class="filter-btn" data-filter="kitchen">Kitchen</button>
+      <button class="filter-btn" data-filter="emergency">Emergency</button>
+    </div>
+  </div>
+</header>
+
+<section class="section--light">
+  <div class="container">
+    <div class="full-portfolio-grid" id="portfolioGrid">
+
+      <div class="portfolio-item reveal" data-category="repipe">
+        <a href="#" class="portfolio-card">
+          <img src="https://images.unsplash.com/photo-1682888818704-6dc91e9d7532?w=900&q=70&auto=format&fit=crop" alt="Marble shower after a full bathroom repipe" loading="lazy" />
+          <span class="portfolio-card-tag">Repipe</span>
+        </a>
+        <div class="portfolio-card-body">
+          <h4>Marble shower repipe</h4>
+          <p>Full copper repipe behind a marble tile shower, completed in three sections to keep water running through the day.</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item reveal" data-category="bathroom">
+        <a href="#" class="portfolio-card">
+          <img src="https://images.unsplash.com/photo-1724771746691-806010d3c6c7?w=900&q=70&auto=format&fit=crop" alt="Guest bathroom with new tub and sink fittings" loading="lazy" />
+          <span class="portfolio-card-tag">Bathroom</span>
+        </a>
+        <div class="portfolio-card-body">
+          <h4>Guest bathroom overhaul</h4>
+          <p>New tub, sink, and supply lines set and sealed alongside a contractor doing the surrounding tile work.</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item reveal" data-category="kitchen">
+        <a href="#" class="portfolio-card">
+          <img src="https://images.unsplash.com/photo-1602028915047-37269d1a73f7?w=900&q=70&auto=format&fit=crop" alt="Stainless steel kitchen sink with new faucet" loading="lazy" />
+          <span class="portfolio-card-tag">Kitchen</span>
+        </a>
+        <div class="portfolio-card-body">
+          <h4>Kitchen sink and disposal swap</h4>
+          <p>Old cast iron sink removed, stainless basin set, and a new disposal wired and tested same visit.</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item reveal" data-category="emergency">
+        <a href="#" class="portfolio-card">
+          <img src="https://images.unsplash.com/photo-1722411487131-23bb3ac91df3?w=900&q=70&auto=format&fit=crop" alt="Copper pipe repaired after a burst line" loading="lazy" />
+          <span class="portfolio-card-tag">Emergency</span>
+        </a>
+        <div class="portfolio-card-body">
+          <h4>Burst line, same day fix</h4>
+          <p>Water shut off within twenty minutes of the call, section replaced, and the wall left ready for a patch crew.</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item reveal" data-category="repipe">
+        <a href="#" class="portfolio-card">
+          <img src="https://images.unsplash.com/photo-1503789146722-cf137a3c0fea?w=900&q=70&auto=format&fit=crop" alt="Pipe wrenches used during a repiping project" loading="lazy" />
+          <span class="portfolio-card-tag">Repipe</span>
+        </a>
+        <div class="portfolio-card-body">
+          <h4>1970s home, full repipe</h4>
+          <p>Whole property moved off galvanized supply lines onto PEX, finished across four scheduled days.</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item reveal" data-category="bathroom">
+        <a href="#" class="portfolio-card">
+          <img src="https://images.unsplash.com/photo-1542013936693-884638332954?w=900&q=70&auto=format&fit=crop" alt="Close up of a repaired bathroom faucet running clean water" loading="lazy" />
+          <span class="portfolio-card-tag">Bathroom</span>
+        </a>
+        <div class="portfolio-card-body">
+          <h4>Master bath faucet rebuild</h4>
+          <p>Corroded valve replaced and pressure balanced across both bathrooms sharing the same supply line.</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item reveal" data-category="kitchen">
+        <a href="#" class="portfolio-card">
+          <img src="https://images.unsplash.com/photo-1602028915047-37269d1a73f7?w=900&q=70&auto=format&fit=crop&sat=-30" alt="Kitchen sink drain cleared and reinstalled" loading="lazy" />
+          <span class="portfolio-card-tag">Kitchen</span>
+        </a>
+        <div class="portfolio-card-body">
+          <h4>Slow kitchen drain, cleared for good</h4>
+          <p>Camera inspection found a collapsed trap arm, replaced and hydro jetted to clear years of buildup.</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item reveal" data-category="emergency">
+        <a href="#" class="portfolio-card">
+          <img src="https://images.unsplash.com/photo-1724771746691-806010d3c6c7?w=900&q=70&auto=format&fit=crop&sat=-20" alt="Bathroom restored after an overnight water heater failure" loading="lazy" />
+          <span class="portfolio-card-tag">Emergency</span>
+        </a>
+        <div class="portfolio-card-body">
+          <h4>Overnight water heater failure</h4>
+          <p>Failed tank drained and swapped before the morning school run, with the area mopped and dried on exit.</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item reveal" data-category="repipe">
+        <a href="#" class="portfolio-card">
+          <img src="https://images.unsplash.com/photo-1682888818704-6dc91e9d7532?w=900&q=70&auto=format&fit=crop&sat=-20" alt="Bathroom vanity after supply line replacement" loading="lazy" />
+          <span class="portfolio-card-tag">Repipe</span>
+        </a>
+        <div class="portfolio-card-body">
+          <h4>Vanity supply line replacement</h4>
+          <p>Two vanities re-fed from a single new manifold, cutting the number of joints hidden behind the wall.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section testimonial">
+  <div class="container">
+    <div class="testimonial-mark reveal" aria-hidden="true">&#8220;</div>
+    <blockquote class="reveal">Every photo on this page is a job we would happily send a new customer to go stand in front of.</blockquote>
+    <cite class="reveal">Rosa Martinez, master plumber</cite>
+  </div>
+</section>
+
+<section class="section cta-section" id="contact">
+  <div class="container" style="text-align: center;">
+    <span class="eyebrow reveal">Have a similar job in mind</span>
+    <svg class="flow-accent reveal" viewBox="0 0 84 14" style="margin-left: auto; margin-right: auto;"><path d="M2 8c8-10 14 2 22-6s14 2 22-6s14 2 22-6" /></svg>
+    <h2 class="reveal">Get your price range in under a minute.</h2>
+    <p class="lede reveal" style="margin: 0 auto 28px;">Use the quote checker on the home page, or call the number below for anything urgent.</p>
+    <div class="reveal">
+      <a href="index.html#quote" class="btn btn--primary">Open the quote checker</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <span>Anchor Plumbing Co., licensed and insured</span>
+    <div class="footer-links">
+      <a href="index.html#services">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+    <span>&copy; 2026 Anchor Plumbing Co.</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
